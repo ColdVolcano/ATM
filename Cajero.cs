@@ -268,6 +268,7 @@ namespace ATM
                     Task.Delay(4000).Wait();
                     return;
                 }
+                Task.Delay(120).Wait();
             }
 
             escribirCentrado("Operación fallida, no se recibió el efectivo");
